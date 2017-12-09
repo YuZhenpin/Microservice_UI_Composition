@@ -1,0 +1,13 @@
+{
+  "name": "backend-service",
+  "version": "1.0.0",
+  "description": "A microservice UI composition demo service",
+  "author": "yuzhenpin@gmail.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

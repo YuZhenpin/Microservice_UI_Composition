@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>UI Integration - AJAX</title>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript">
+$(function() {
+$("#content1").load("http://myhost:8081/");
+$("#content2").load("http://myhost:8082/");
+$("#content3").load("http://myhost:8083/");
+});
+</script>
+</head>
+<body>
+<div id="content1">-</div>
+<div id="content2">-</div>
+<div id="content3">-</div>
+</body>
+</html>
